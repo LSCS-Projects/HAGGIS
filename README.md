@@ -1,4 +1,4 @@
-HAG
-===
+HAG-GIS
+=======
 
-Historical Address Geocoder (HAG)
+Historical Address Geocoder (HAG-GIS)
