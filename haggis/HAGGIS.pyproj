@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{bc44ab47-d478-4e19-a783-1188029b3a59}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>haggis.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>{451890a7-3f75-4a94-81bc-3a7503f1cf8f}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+    <IsWindowsApplication>False</IsWindowsApplication>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app_controllers\c_clean.py" />
+    <Compile Include="app_controllers\c_load.py" />
+    <Compile Include="app_controllers\c_match.py" />
+    <Compile Include="app_controllers\c_spatial.py" />
+    <Compile Include="app_controllers\c_tokenise.py" />
+    <Compile Include="app_controllers\__init__.py" />
+    <Compile Include="app_models\m_clean.py" />
+    <Compile Include="app_models\m_load.py" />
+    <Compile Include="app_models\m_match.py" />
+    <Compile Include="app_models\m_spatial.py" />
+    <Compile Include="app_models\m_tokenise.py" />
+    <Compile Include="app_models\__init__.py" />
+    <Compile Include="app_views\v_clean.py" />
+    <Compile Include="app_views\v_load.py" />
+    <Compile Include="app_views\v_match.py" />
+    <Compile Include="app_views\v_spatial.py" />
+    <Compile Include="app_views\v_tokenise.py" />
+    <Compile Include="app_views\__init__.py" />
+    <Compile Include="db\dbTools.py" />
+    <Compile Include="db\__init__.py" />
+    <Compile Include="gui\gui_main.py" />
+    <Compile Include="gui\__init__.py" />
+    <Compile Include="haggis.py" />
+    <Compile Include="tests\test_spatial.py" />
+    <Compile Include="tests\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="config.yaml" />
+    <Content Include="db\hag_indexes.sql" />
+    <Content Include="db\hag_schema.sql" />
+    <Content Include="lib\qhull-2012.1\Announce.txt" />
+    <Content Include="lib\qhull-2012.1\CMakeLists.txt" />
+    <Content Include="lib\qhull-2012.1\COPYING.txt" />
+    <Content Include="lib\qhull-2012.1\eg\qhulltest-ok.txt" />
+    <Content Include="lib\qhull-2012.1\eg\q_test-ok.txt" />
+    <Content Include="lib\qhull-2012.1\html\index.htm" />
+    <Content Include="lib\qhull-2012.1\html\normal_voronoi_knauss_oesterle.jpg" />
+    <Content Include="lib\qhull-2012.1\html\qconvex.htm" />
+    <Content Include="lib\qhull-2012.1\html\qdelaun.htm" />
+    <Content Include="lib\qhull-2012.1\html\qdelau_f.htm" />
+    <Content Include="lib\qhull-2012.1\html\qh--4d.gif" />
+    <Content Include="lib\qhull-2012.1\html\qh--cone.gif" />
+    <Content Include="lib\qhull-2012.1\html\qh--dt.gif" />
+    <Content Include="lib\qhull-2012.1\html\qh--geom.gif" />
+    <Content Include="lib\qhull-2012.1\html\qh--half.gif" />
+    <Content Include="lib\qhull-2012.1\html\qh--rand.gif" />
+    <Content Include="lib\qhull-2012.1\html\qh-code.htm" />
+    <Content Include="lib\qhull-2012.1\html\qh-eg.htm" />
+    <Content Include="lib\qhull-2012.1\html\qh-faq.htm" />
+    <Content Include="lib\qhull-2012.1\html\qh-get.htm" />
+    <Content Include="lib\qhull-2012.1\html\qh-impre.htm" />
+    <Content Include="lib\qhull-2012.1\html\qh-optc.htm" />
+    <Content Include="lib\qhull-2012.1\html\qh-optf.htm" />
+    <Content Include="lib\qhull-2012.1\html\qh-optg.htm" />
+    <Content Include="lib\qhull-2012.1\html\qh-opto.htm" />
+    <Content Include="lib\qhull-2012.1\html\qh-optp.htm" />
+    <Content Include="lib\qhull-2012.1\html\qh-optq.htm" />
+    <Content Include="lib\qhull-2012.1\html\qh-optt.htm" />
+    <Content Include="lib\qhull-2012.1\html\qh-quick.htm" />
+    <Content Include="lib\qhull-2012.1\html\qhalf.htm" />
+    <Content Include="lib\qhull-2012.1\html\qhull.htm" />
+    <Content Include="lib\qhull-2012.1\html\qhull.txt" />
+    <Content Include="lib\qhull-2012.1\html\qvoronoi.htm" />
+    <Content Include="lib\qhull-2012.1\html\qvoron_f.htm" />
+    <Content Include="lib\qhull-2012.1\html\rbox.htm" />
+    <Content Include="lib\qhull-2012.1\html\rbox.txt" />
+    <Content Include="lib\qhull-2012.1\index.htm" />
+    <Content Include="lib\qhull-2012.1\README.txt" />
+    <Content Include="lib\qhull-2012.1\REGISTER.txt" />
+    <Content Include="lib\qhull-2012.1\src\Changes.txt" />
+    <Content Include="lib\qhull-2012.1\src\libqhull\index.htm" />
+    <Content Include="lib\qhull-2012.1\src\libqhull\qh-geom.htm" />
+    <Content Include="lib\qhull-2012.1\src\libqhull\qh-globa.htm" />
+    <Content Include="lib\qhull-2012.1\src\libqhull\qh-io.htm" />
+    <Content Include="lib\qhull-2012.1\src\libqhull\qh-mem.htm" />
+    <Content Include="lib\qhull-2012.1\src\libqhull\qh-merge.htm" />
+    <Content Include="lib\qhull-2012.1\src\libqhull\qh-poly.htm" />
+    <Content Include="lib\qhull-2012.1\src\libqhull\qh-qhull.htm" />
+    <Content Include="lib\qhull-2012.1\src\libqhull\qh-set.htm" />
+    <Content Include="lib\qhull-2012.1\src\libqhull\qh-stat.htm" />
+    <Content Include="lib\qhull-2012.1\src\libqhull\qh-user.htm" />
+    <Content Include="ToDo.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app_controllers" />
+    <Folder Include="app_models" />
+    <Folder Include="app_views" />
+    <Folder Include="db" />
+    <Folder Include="gui" />
+    <Folder Include="lib\" />
+    <Folder Include="lib\qhull-2012.1" />
+    <Folder Include="lib\qhull-2012.1\eg" />
+    <Folder Include="lib\qhull-2012.1\html" />
+    <Folder Include="lib\qhull-2012.1\src" />
+    <Folder Include="lib\qhull-2012.1\src\libqhull" />
+    <Folder Include="tests" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{451890a7-3f75-4a94-81bc-3a7503f1cf8f}\2.7" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>

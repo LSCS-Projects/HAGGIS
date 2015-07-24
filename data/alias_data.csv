@@ -1,0 +1,535 @@
+Alias|Name|Freq
+ABUT|Abutment|1
+Acad|Academy|1
+Ad|Administrative|1
+Adj|Adjacent|1
+Admin|Administrative|1
+AL|Alley|1
+Allot|Allotment |1
+Alt|Altitude|1
+Alts|Alterations|1
+Amb|Ambulance|1
+ANG|Angle|1
+Angle|Anglesey|1
+AP|Approach |1
+APP|Approach|1
+AR|Arcade|1
+ARC|Arcade|1
+AUX|Auxiliary|1
+Av|Avenue|1
+Ave|Avenue|1
+Bapt|Baptist|1
+BATT|Battlement|1
+BC|Borough Constituency|1
+BC|Burgh Constituency|1
+Bd|Board|1
+BD|Boulevard|1
+Bdy|Boundary|1
+BDY|Broadway|1
+BG|Burial Ground|1
+BH|Beer House|1
+BK|Bake|1
+Bk|Bank|1
+Bks|Barracks|1
+BL|Basement Light|1
+BLDG|Building|1
+Bldgs|Buildings|1
+Blg|Building|1
+BM|Bench Mark|1
+BN|Barn|1
+Bn|Broken|1
+Bo|Boulders|1
+BOH|Boiler House|1
+Bol|Bollard|1
+Boro|Borough|1
+BP|Boundary Post|1
+Br|Braced|1
+BR|bracket|1
+BR|Brass Rivet|1
+BR|Brew|1
+Br|Bridge|1
+BR|Bridle Road|1
+BR|Brow|1
+Brac|Bracken|1
+BS|Boundary Stone|1
+BS|Bus Stop|1
+Bty|Battery|1
+Bucks|Buckinghamshire|1
+Bus|Omnibus|1
+BUTT|Buttress|1
+BVD|Boulevard|1
+BY|Broadway|1
+Calv|Calvinist|1
+Cas|Castle|1
+Cath|Cathedral|1
+Cathl|Cathedral|1
+CB|Call Box|1
+CB|Centre of Bank|1
+CB|Centre of Basin|1
+CB|Centre of Baulk|1
+CB|Centre of Broad|1
+CB|Coal Bin|1
+CB|Coal Bunker|1
+CB|County Borough|1
+CC|Centre of Canal|1
+CC|Chisel Cut|1
+CC|Coal Cover|1
+CC|County Constituency|1
+CC|County Council|1
+CD|Centre Drain|1
+Cemy|Cemetery|1
+Cen|Centre|1
+CF|Croft|1
+CFT|Croft|1
+CG|Cattle Grid|1
+CG|Coastguard|1
+CH|Chase|1
+Ch|Church|1
+CH|Club House|1
+CH|Coach House|1
+CH|Coal House|1
+CHA|Chase|1
+Chap|Chapel|1
+Chr|Christian|1
+Chy|Chimney|1
+Cin|Cinema|1
+CIR|Circle|1
+CIR|Circus|1
+CIRC|Circle|1
+CIRC|Circus|1
+Cis|Cistern|1
+CL|Close|1
+Cl|Coal|1
+CLB|Coal Bin|1
+CM|Chalk Mark|1
+CM|Crayon Mark|1
+Cn|Capstan|1
+CN|Cistern|1
+Cnl|Council |1
+Cnr|Corner |1
+Co|County|1
+CoH|Cow House|1
+Col|Collects |1
+Coll|College|1
+Colly|Colliery|1
+Comm|Community|1
+Comps|Computations|1
+Conc|Concrete|1
+Congl|Congregational|1
+Const|Constituency|1
+Conv|Convalescent|1
+Corpn|Corporation|1
+Cott|Cottage|1
+CP|Centre Punched|1
+CP|Cess Pool|1
+CP|Civil Parish|1
+Cr|Centre|1
+Cr|Crescent|1
+cr|Crosses|1
+Crem|Crematorium|1
+Cres|Crescent|1
+CS|Centre of Stream|1
+CS|Cess Pool|1
+CS|Cross|1
+Cse|Course|1
+CSWY|Causeway|1
+CT|Cart|1
+CT|Cart Track|1
+Ct|Court|1
+CU|Cut|1
+Cul|Culvert|1
+Cur|Curacy|1
+Cvt|Convent|1
+CW|Causeway|1
+CW|Centre of Wall|1
+DB|Dust Bin|1
+DD|Double Ditch|1
+DD|Double Drain|1
+Def|Defaced|1
+Dept|Department|1
+Det|Detached|1
+Det|Detector|1
+DF|Double Fence|1
+DF|Drain Frame|1
+DF|Drinking Fountain|1
+DG|Double Gate|1
+DG|Drying Ground|1
+Dis|Disused|1
+Dist|District|1
+Div|Division|1
+Dk|Dock|1
+DL|Dale|1
+DOR|Date of Revision|1
+DOS|Date of Survey|1
+DP|Dung Pit|1
+Dr|Drive|1
+DRO|Drove|1
+DS|Double Stream|1
+DV|Drove|1
+DW|Double Wall|1
+DW|Draw Well|1
+ED|Electoral Division|1
+ED|European Datum|1
+EK|Edge of Kerb|1
+EM|Embankment|1
+EM|End of Motorway|1
+EMB|Embankment|1
+Emp|Employment|1
+ENT|Entrance|1
+EP|Electricity Pole|1
+EP|Pylon|1
+ES|End of Straight|1
+ESP|Esplanade|1
+ESPL|Esplanade|1
+Ex|Exchange|1
+FA|Fire Alarm|1
+Fall|Waterfall|1
+FB|Filter Bed|1
+FB|Foot Bridge|1
+FC|Forestry Commission|1
+FC|Free Church|1
+FCh|Free Church|1
+Fd|Fold |1
+FD|Foundations |1
+FF|Face of Fence|1
+FH|Fire Hydrant|1
+FL|Face Left|1
+Fl|Flare|1
+FL|Flush|1
+Fm|Farm|1
+Fn|Fountain|1
+FO|Folly|1
+FP|Face of Paling|1
+FP|Fire Plug|1
+FP|Foot Path|1
+FR|Face Right|1
+FR|Flat Rock|1
+FS|Flagstaff|1
+Ft|Feet|1
+FW|Face of Wall|1
+GC|Gas Column|1
+GD|Gardens|1
+Gd|Ground|1
+Gdns|Gardens|1
+Gen|Generating|1
+Geo|Geodetic|1
+GH|Green House|1
+Gl|Glass|1
+GN|Green|1
+Gov|Governor|1
+Govt|Government|1
+GP|Gas Plug|1
+GP|Guide Post|1
+GPO|General Post Office|1
+Gr|Grove|1
+GS|Gantry Support|1
+GT|Gate|1
+GV|Gas Valve|1
+ha|Hectares|1
+Hd|Head|1
+HL|Hill|1
+Ho|House|1
+HOL|Hollow|1
+Hospl|Hospital|1
+HPO|Head Post Office|1
+HQ|Headquarters|1
+HR|Hedge Row|1
+HT|Heights|1
+HTS|Heights|1
+HW|High Water|1
+HW|Hollow|1
+HW|Hollow Way|1
+Hyd|Hydrant|1
+IH|Inspection Hole|1
+Indpt|Independent|1
+Indt|Independent|1
+Infmy|Infirmary|1
+Inft|Infant|1
+ins|Inches|1
+Inst|Institute|1
+Instn|Institution|1
+Int|Intersection|1
+IP|Iron Pipe|1
+IR|Iron Rod|1
+Isoln|Isolation|1
+Iss|Issues|1
+J|Junction|1
+JN|Junction|1
+Junc|Junction|1
+K|Kerb|1
+km|Kilometres|1
+KN|Kiln|1
+KS|Kitchin Sink|1
+La|Lane|1
+Lat|Latitude|1
+Lav|Lavatory|1
+LB|Letter Box|1
+LB|London Borough|1
+LB|Lifeboat|1
+LC|Level Crossing|1
+LDP|Long Distance Path|1
+LE|Lea|1
+LG|Loading Gauge|1
+LH|Lamp House|1
+Liby|Library|1
+LK|Lime Kiln|1
+LKN|Lime Kiln|1
+LN|Lawn|1
+Lo|Lodge|1
+Loco|Locomotive|1
+Long|Longitude|1
+LP|Lamp Post|1
+Lr|Lower|1
+LRO|Local Reference Object|1
+LT|London Transport|1
+LTA|London Traffic Area|1
+LWN|Lawn|1
+LWR|Last Walk Round|1
+MB|Municipl Borough|1
+MC|Minor Control|1
+Md|Mound|1
+Me|Mead|1
+Meml|Memorial|1
+met|Metalled|1
+Met|Meteorological|1
+Met|Metropolitan|1
+Meth|Methodist|1
+Mg|Mooring|1
+MH|Malt House|1
+MH|Man Hole|1
+MHW|Mean High Water|1
+Min|Ministry|1
+Misn|Mission|1
+Mix|Mixed|1
+Mix|Mixture|1
+Mk|Mark|1
+Mkt|Market|1
+MO|Matter of opinion|1
+Mod|Module|1
+Mon|Monument|1
+Mort|Mortuary|1
+MPU|Mail Pick-up|1
+Mr|Manor|1
+MR|Mooring Ring|1
+MS|Mews|1
+MS|Mile Stone|1
+MT|Mount|1
+Mt|Mountain|1
+Munl|Municipal|1
+Mus|Museum|1
+NBM|New Bench Mark|1
+NC|Non-coniferous|1
+ND|No division |1
+NG|National Grid|1
+No|Number|1
+Noncon|Nonconformist|1
+Notts|Nottinghamshire|1
+NS|Not square|1
+NT|National Trust|1
+NTS|National Trust for Scotland|1
+Obsy|Observatory|1
+Oct|Octagonal|1
+OE|Orignal Error|1
+OG|Ornamental Ground|1
+ON|Oven|1
+OPP|Opposite|1
+OR|Orchard|1
+OR|Outcropping Rock|1
+Orch|Orchard|1
+OS|Out Stipple|1
+PA|Path|1
+PAB|Published Abstract Bolt|1
+Pal|Palace|1
+PAR|Parade|1
+PARA|Parapet|1
+Parly|Parliamentary|1
+PASS|Passage|1
+Pav|Pavilion|1
+PC|Pedestrian Crossing|1
+PC|Public Convenience|1
+PCB|Police Call Box|1
+PD|Detail Point|1
+Pd|Pond|1
+Per|Perpetual|1
+PG|Passage|1
+Ph|Parish|1
+PH|Public House|1
+Pk|Park |1
+Pks|Pecks|1
+Pkt|Picket|1
+PL|Pipe Line|1
+Pl|Place|1
+Plantn|Plantation|1
+PLB|Pillar Letter Box|1
+PN|Pipe Nail|1
+PO|Post Office|1
+POD|Detail Point|1
+Pol|Police|1
+PP|Primary Point|1
+Pp|Pump|1
+Ppg|Pumping|1
+PR|Periodic Revision|1
+PR|Promenade|1
+PRE|Precinct|1
+Presb|Presbyterian|1
+Presby|Presbytery|1
+PRODN|Production|1
+PROM|Promenade|1
+PS|Pass|1
+PSH|Parish|1
+Pt|Point|1
+PT|Precinct|1
+Pte|Private|1
+PTP|Police Telephone Pillar|1
+PTS|Permanent Traverse Station|1
+Pub|Public|1
+PW|Place of Worship|1
+PY|Piggery|1
+Py|Privy|1
+Q|Quay|1
+RB|Rural Borough|1
+RC|Roman Catholic|1
+Rd|Road|1
+RD|Rural District|1
+RDG|Ridge|1
+Rec|Rectory|1
+Recn|Recreation|1
+Rems|Remains|1
+Resr|Reservoir|1
+RG|Ridge|1
+RG|Rough grassland |1
+RH|Road House|1
+RH|Root of Hedge|1
+RL|Roof Line|1
+Rly|Railway|1
+RO|Reference|1
+RO|Retain Original|1
+rp|Revision Point|1
+RS|Rain Spout|1
+RW|Row|1
+Ry|Railway|1
+SA|Salvation Army|1
+Sanatm|Sanatorium|1
+SB|Signal Box|1
+Sc|Science|1
+Sc|Scrub|1
+SC|Stop Cock|1
+Scat|Scattered|1
+Sch|School|1
+SD|Side|1
+SD|Single Drain|1
+Sd|Sound|1
+SD|Strand|1
+SD|Sun Dial|1
+Sec|Secondary|1
+SF|Side of Fence|1
+SG|Sewer Grate|1
+Sh|Sheep|1
+SH|Summer House|1
+Sk|Sketched|1
+Sk|Stack|1
+Sks|Sinks|1
+SL|Signal Lamp|1
+SL|Signal Light|1
+Sl|Sluice|1
+SM|Sloping Masonry|1
+Smy|Smithy|1
+SN|Scientific Network|1
+SP|Sewer Pipe|1
+SP|Signal Post|1
+Sp|Spire|1
+Sp|Spreads|1
+SP|Spur|1
+Spr|Spring|1
+Sq|Square|1
+SR|Side of River|1
+SRS|Stairs|1
+SS|Saints|1
+SS|Single Stream|1
+SSlip|Single Slip|1
+St|Saint|1
+ST|Spring Tides|1
+ST|Stable|1
+St|Stone|1
+St|Street|1
+Sta|Station|1
+Staffs|Staffordshire|1
+Std|Standard|1
+Stn|Station|1
+STPS|Steps|1
+StrS|Stairs|1
+STS|Steps|1
+Suff|Suffolk|1
+Sun|Sunday|1
+Sur|Surface|1
+SV|Spirit Vaults|1
+SW|Sloping Wall|1
+Sw|Switch|1
+TB|Top of Bank|1
+TC|Travelling Crane|1
+TE|Terrace|1
+Tech|Technical|1
+Tel|Telephone|1
+Ter|Terminus|1
+Ter|Terrace|1
+Terr|Terrace|1
+Tert|Tertiary|1
+TG|Toll Gate|1
+TH|Tool House|1
+TH|Town Hall|1
+Tk|Tank|1
+Tk|Track|1
+TLH|Tool House|1
+Toll|Toll Bridge or Gate|1
+TP|Telegraph Pole|1
+TP|Turnpike|1
+Tr|Trough|1
+tr|Trough|1
+Trav|Traverse|1
+TS|Traffic Signal|1
+TWL|Top Water Level|1
+Twr|Tower|1
+UD|Urban District|1
+UF|United Free|1
+um|Unmade|1
+Und|Undefined|1
+Unit|Unitarian|1
+Univ|University|1
+UP|United Presbyterian|1
+Upr|Upper|1
+VA|Vale|1
+VA|Vertical Angle|1
+VA|Voluntary Assisted|1
+VC|Valve Cover|1
+VDP|Vehicle Detector Pad|1
+VI|Vertical Interval|1
+VI|Villas|1
+Vic|Vicarage|1
+VIL|Villas|1
+VP|Vent Pipe|1
+Vr|Ventilator|1
+VT|Vault|1
+VW|View|1
+WB|Weighbridge|1
+WB|Weighing Machine|1
+WC|Water Column|1
+Wes|Wesleyan|1
+WF|Wharf|1
+WF|Wharf|1
+WH|Water House|1
+WK|Walk|1
+Wks|Works|1
+WLK|Walk|1
+WM|Water Main|1
+WM|Weighing Machine|1
+WM|Witness Mark|1
+WMP|Warning & Monitoring Post|1
+WN|Wire Nail|1
+WP|Water Plug|1
+Wr|Water|1
+WS|Work Shop|1
+WY|Way|1
+XC|Cross Cut|1
+Y|Yard|1
+Yd|Yard|1
+YH|Youth Hostel|1

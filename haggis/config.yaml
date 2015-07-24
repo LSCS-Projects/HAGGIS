@@ -1,0 +1,241 @@
+# config.yaml - Configuration file of HAG-GIS application.
+#
+# Copyright (C) 2014-5 Digitising Scotland Project
+#
+# Author: Konstantinos Daras <konstantinos.daras@gmail.com>
+# Source code: https://github.com/LSCS-Projects/HAGGIS
+# Web site: http://lscs-projects.github.io/HAGGIS/
+# =============================================================================
+#
+#  This Source Code is subject to the terms of the BSD license. For license
+#  information, see LICENSE.TXT 
+#
+# =============================================================================
+
+# SQLite database settings 
+# 
+#------------------------------------------------------------------------------
+# OPTIONAL: <db_schema> and <db_indexes> if the <db_path> database exists.
+#------------------------------------------------------------------------------
+db_path: C:/Github/HAGGIS/data/hag_venv.sqlite
+# db_schema: 
+db_schema: C:/Github/HAGGIS/haggis/db/hag_schema.sql
+db_indexes: C:/Github/HAGGIS/haggis/db/hag_indexes.sql
+
+use_freq_tables: True
+db_freq_tables: True
+db_freq_ctb_limit: 3000
+db_freq_htb_limit: 3000
+
+# System settings
+# 
+#------------------------------------------------------------------------------
+# GUI environment <gui>
+#	False: GUI disabled [Default value]
+#	True: GUI enabled
+# Coordinate System <coordinate_system>
+#	0: X/Y coordinates [Default value]
+#   1: Lat/Lon coordinates
+#------------------------------------------------------------------------------
+gui: False
+coordinate_system: 0
+srid_code: 27700
+
+# Paths of CSV files
+# OPTIONAL: if the <db_path> database exists
+#------------------------------------------------------------------------------
+hist_csv: C:/Github/HAGGIS/data/historical_addresses.csv
+cont_csv: C:/Github/HAGGIS/data/contemporary_addresses.csv
+accept_csv: C:/Github/HAGGIS/data/accepted_strings_all.csv
+alias_csv: C:/Github/HAGGIS/data/alias_data.csv
+localities_csv: C:/Github/HAGGIS/data/locality_names.csv
+towns_csv: C:/Github/HAGGIS/data/town_names.csv
+
+
+# Field Mapping between 'Ctb' table and 'cont_csv' CSV file.
+# Use * to select the fields that require cleaning.
+# OPTIONAL: if the <db_path> database exists. 
+#------------------------------------------------------------------------------
+ctb_cid: UDPRN
+ctb_name: Property*
+ctb_num:
+ctb_street: Street*
+ctb_cpcode: Postcode
+ctb_locality: Locality*
+ctb_town: Town*
+ctb_greasting: GridRefEasting
+ctb_grnorthing: GridRefNorthing
+ctb_distcode: 
+
+# Field Mapping between 'Htb' table and 'hist_csv' CSV file.
+# Use * to select the fields that require cleaning.
+# OPTIONAL: if the <db_path> database exists.
+#------------------------------------------------------------------------------
+htb_hid: ID
+htb_name: 
+htb_num:
+htb_street: Street*
+htb_hpcode:
+htb_locality: 
+htb_town: 
+htb_hyear: Year
+htb_distcode: RD
+
+# Field Mapping between 'Atb' table and 'alias_csv' CSV file.
+# Use * to select the fields that require cleaning.
+# OPTIONAL: if the <db_path> database exists
+#------------------------------------------------------------------------------
+atb_alias: Alias*
+atb_name: Name*
+atb_freq: Freq
+
+# Field Mapping between 'STtb' table and 'accept_csv' CSV file.
+# Use * to select the fields that require cleaning.
+# OPTIONAL: if the <db_path> database exists
+#------------------------------------------------------------------------------
+sttb_name: Str_Name*
+
+# Cleaning process settings
+# 
+#------------------------------------------------------------------------------
+# Default values: lcase = True
+#                 strip = True
+#                 punct = False
+#------------------------------------------------------------------------------
+lcase: True
+strip: True
+punct: True
+rm_address_num: True
+rm_locality: False
+rm_town: False
+rm_ctb_street_duplicates: True
+ctb_group_by_fields:
+- Name
+- Street
+- Locality
+- Town
+- DistCode
+rm_htb_street_duplicates: True
+htb_group_by_fields:
+- Street
+- Locality
+- Town
+- HYear
+- DistCode
+accept_substring: True
+
+# Tokenisation process settings
+# 
+#------------------------------------------------------------------------------
+# Default values: delimiter = ','
+#                 alias = True
+# Delimiters: any punctuation = '<char>'
+#             tab = '/t'
+#------------------------------------------------------------------------------
+delimiter: '|'
+quotechar: '"'
+restkey: 'undefined-fieldnames'
+alias: True
+
+# Matching process settings
+# 
+#------------------------------------------------------------------------------
+# Initial matching process - init_matching = True [Default value]
+# Backup database  - db_backup = True [Default value]
+#
+# String distance algorithms
+# 	0: Levenshtein edit-distance - Transposition OFF [Default value]
+#	1: Levenshtein edit-distance - Transposition ON 
+#
+# String set-matching algorithms
+#	2: Jaccard distance
+#   3: Measuring Agreement on Set-Valued Items (MASI)
+#
+# String matching threshold - Recommended value is 0.9 for Levenshtein distance. 
+#   Value ranges from 1 for exact match to 0 for no match.
+#
+# String matching order                              TODO: To be implemented!!!
+#	SEQ: Sequential [Default value]
+#   EXT: Matches one of the contemporary tokens 
+#------------------------------------------------------------------------------
+init_matching: True
+db_backup: True
+str_distance: 0
+str_set: 2
+matching_threshold: 0.8
+matching_order: SEQ
+filter_locality: False
+filter_town: False
+
+# Spatial process settings
+# 
+#------------------------------------------------------------------------------
+# The weights are computed using the nearest neighbours method 
+# (k-dimensional tree)
+#   sp_radius: The radius of a circle used by the K-D Tree method (FLOAT).
+#   sp_matching_threshold: The matching threshold used by the system to compute 
+#                         the weights [Default value: 80].
+#   sp_density_threshold: The point density threshold used by the system to
+#                         compute the weights [Default value: 1].  
+#------------------------------------------------------------------------------
+sp_run: True
+sp_radius: 1000.0
+sp_matching_threshold: 80
+sp_density_threshold: 5
+sp_cent_fill: False
+
+# Second round of matching process settings
+# 
+#------------------------------------------------------------------------------
+# Second matching process - <sec_matching> = True [Default value]
+# Backup database  - <sec_db_backup> = True [Default value]
+#
+# String distance algorithms - <sec_str_distance>
+# 	0: Levenshtein edit-distance - Transposition OFF [Default value]
+#	1: Levenshtein edit-distance - Transposition ON 
+#
+# String set-matching algorithms - <sec_str_set>
+#	2: Jaccard distance
+#   3: Measuring Agreement on Set-Valued Items (MASI)
+#
+# String matching threshold - <sec_matching_threshold>:
+#   Recommended value is 0.9 for Levenshtein distance. 
+#   Value ranges from 1 for exact match to 0 for no match.
+#
+# String matching order - <sec_matching_order>:      TODO: To be implemented!!!
+#	SEQ: Sequential [Default value]
+#   EXT: Matches one of the contemporary tokens 
+
+# sec_sp_rd_bb_method: The method for defining the bounding box of pseudo-RD
+#                      0: Use the bounding boxes of thiessen polygons with 
+#                         assigned RD codes. 
+#                      1: Use the bounding boxes of RD thiessen polygons
+#                         created by using the centroids of thiessen polygons  
+#                         with assigned RD codes.
+#------------------------------------------------------------------------------
+sec_matching: True
+sec_db_backup: True
+sec_str_distance: 0
+sec_str_set: 2
+sec_matching_threshold: 0.5
+sec_matching_order: SEQ
+sec_sp_rd_bb_method: 1
+
+# Second round Spatial process settings
+# 
+#------------------------------------------------------------------------------
+# The weights are computed using the nearest neighbours method 
+# (k-dimensional tree)
+#   sec_sp_radius: The radius of a circle used by the K-D Tree method (FLOAT).
+#   sec_sp_matching_threshold: The matching threshold used by the system to  
+#                              compute the weights [Default value: 80].
+#   sec_sp_density_threshold: The point density threshold used by the system to
+#                             compute the weights [Default value: 1].  
+#   sec_sp_cent_fill: Assign Rd codes using nearest neighbours method from 
+#                     the RD centroid [Default value: False]. <NOT IMPLEMENTED>
+#------------------------------------------------------------------------------
+sec_sp_run: True
+sec_sp_radius: 1000.0
+sec_sp_matching_threshold: 50
+sec_sp_density_threshold: 2
+sec_sp_cent_fill: False

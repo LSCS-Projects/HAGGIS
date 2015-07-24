@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>bc44ab47-d478-4e19-a783-1188029b3a59</TargetProject>
+    <FriendlyName>HAGGIS</FriendlyName>
+  </ProjectTarget>
+  <Reports>
+    <Report>
+      <Filename>C:\Users\Kostas\AppData\Local\Temp\HAGGIS_20141209.vsp</Filename>
+    </Report>
+  </Reports>
+</ProfilingTarget>
