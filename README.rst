@@ -1,13 +1,13 @@
-===========================================================
-Historical Address Geocoder (HAG) 0.5.0 installation instructions
-===========================================================
+=====================================================================
+Historical Address Geocoder (HAG-GIS) 1.0.0 installation instructions
+=====================================================================
 
-Konstantinos Daras, 04 June 2014
+Konstantinos Daras, July 2015
 
 
-The basic HAG-0.5.0 installation requires Python  2.7, with
-additional modules and libraries needed for the graphical user interface
-(GUI) and the support vector machine (SVM) classification method.
+The basic HAGGIS-1.0.0 installation requires Python  2.7, with
+additional modules and libraries needed for the spatial and database
+managment.
 
 Python:
   http://www.python.org
@@ -92,32 +92,26 @@ saved from within the GUI) can be run outside the GUI, for example:
 Problems and errors:
 --------------------
 
-Please note that this is the initial 'alpha' distribution of HAG-0.5.0
+Please note that this is the initial distribution of HAGGIS-1.0.0
 which has only been tested to a limited extent on an Windows platform
 (specifically Windows 7 & 8 with Python 2.7).
 
 Please report any problems and bugs to: konstantinos.Daras@gmail.com
 
 
-HAG-0.5.0 updates:
+HAGGIS-1.0.0 updates:
 --------------------------
 
 To receive updates and news on HAG please visit the following open source lists at:
-
-.. image:: https://badge.fury.io/py/hag.png
-    :target: http://badge.fury.io/py/hag
     
-.. image:: https://badge.fury.io/gh/gisdarcon%2Fhag.png
-        :target: https://github.com/gisdarcon/HAG
-
-.. image:: https://pypip.in/d/hag/badge.png
-        :target: https://pypi.python.org/pypi/hag
+.. image:: https://badge.fury.io/gh/LSCS-Projects%2FHAGGIS.png
+        :target: https://github.com/LSCS-Projects/HAGGIS
 
 
 Historical Address Geocoder
 
-* Free software: BSD license
-* Documentation: http://hag.readthedocs.org.
+* Free software: GPL 3.0 license
+* Documentation: http://www.gnu.org/licenses/gpl.html.
 
 Features
 --------

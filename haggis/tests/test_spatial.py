@@ -1,5 +1,8 @@
-import unittest
+﻿import unittest
 import numpy as np
+import sys
+import os
+sys.path.append('C:/Github/HAGGIS/haggis/app_models/..')
 from app_models import m_spatial
 
 class Test_spatial(unittest.TestCase):
@@ -11,7 +14,9 @@ class Test_spatial(unittest.TestCase):
                        50.0,
                        25.0]
         model = m_spatial.SpatialTools()
-        self.assertEqual(model.calculate_point_density(points,ids, 3.0), zip(ids, res_density))
+        result = model.calculate_point_density(points,ids, 3.0)
+        gold = zip(ids, res_density)
+        self.assertEqual(result, gold)
 
 if __name__ == '__main__':
     unittest.main()

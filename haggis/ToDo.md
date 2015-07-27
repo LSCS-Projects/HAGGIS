@@ -5,5 +5,5 @@
 *	Use Q-Gram algorithm
 *	Use Jaro-Winkler algorithm
 *	Introduce weights in each token
-*	Use Classification after comparison
+*	Use Classification after address comparison
 
