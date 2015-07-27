@@ -15,41 +15,41 @@ http://www.python.org
 
 To install pip, securely download get-pip.py (https://bootstrap.pypa.io/get-pip.py). Then run the following (which may require administrator access):
 
->>> python get-pip.py
+$ python get-pip.py
 
 If setuptools is not already installed, get-pip.py will install setuptools for you. To upgrade an existing setuptools:
 
->>> pip install -U setuptools.
+$ pip install -U setuptools.
 
 Additional Python packages (**pip package is required**)
 
 wheel package:
 
->>> pip install wheel==0.24.0
+$ pip install wheel==0.24.0
 
 PyYAML package:
 
->>> pip install PyYAML==3.11
+$ pip install PyYAML==3.11
 
 python-Levenshtein package:
 
->>> pip install python-Levenshtein==0.11.2
+$ pip install python-Levenshtein==0.11.2
 
 scipy package:
 
->>> pip install scipy==0.15.1
+$ pip install scipy==0.15.1
 
 numpy package:
 
->>> pip install numpy==1.9.2
+$ pip install numpy==1.9.2
 
 nose package:
 
->>> pip install nose==1.3.7
+$ pip install nose==1.3.7
 
 tqdm package:
 
->>> pip install tqdm==1.0
+$ pip install tqdm==1.0
 
 
 External Libraries:
@@ -84,11 +84,11 @@ Unpack the archive and a new directory named 'HAGGIS' will be created containing
 
 Go into the 'tests' sub-directory within 'HAGGIS/haggis' and run all tests using the corresponding command provided:
 
->>> nosetests
+$ nosetests
 
 or run the tests individually (within 'HAGGIS/haggis/tests' folder), for example:
 
->>> python test_spatial.py
+$ python test_spatial.py
 
 
 
@@ -97,11 +97,11 @@ Starting HAGGIS-1.0.0
 
 The HAGGIS can be started using:
 
->>> python haggis.py
+$ python haggis.py
 
 or 
 
->>> python haggis.py <config file>
+$ python haggis.py <config file>
 
 where <config file> is a given configuration file.
 
