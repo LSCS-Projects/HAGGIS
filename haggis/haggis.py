@@ -212,13 +212,13 @@ if __name__ == "__main__":
     # Load config file
     app_load = CLoad.c_load()
     cfg_data = ''
-    cfg_file = os.path.abspath(os.path.dirname(sys.argv[0])) + '\\' + 'config.yaml'
+    cfg_file = os.path.abspath(os.path.dirname(sys.argv[0])) + os.sep + 'config.yaml'
    
     if os.path.exists(cfg_file) == False:
         cfg_file = main(sys.argv[1:])
         cfg_data = app_load.load_yaml_file(os.path.abspath
                                            (os.path.dirname(sys.argv[0])) +
-                                            '\\' + cfg_file)
+                                            os.sep + cfg_file)
     else:
          cfg_data = app_load.load_yaml_file(cfg_file)
     

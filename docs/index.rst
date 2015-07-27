@@ -1,26 +1,17 @@
-.. complexity documentation master file, created by
-   sphinx-quickstart on Tue Jul  9 22:26:36 2013.
+.. HAGGIS documentation master file, created by
+   sphinx-quickstart on Mon Jul 27 15:57:29 2015.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Historical Address Geocoder's documentation!
-======================================
+Welcome to HAGGIS's documentation!
+==================================
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :caption: Table of Contents
 
-   readme
-   installation
-   usage
-   contributing
-   authors
-   history
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   HISTORY
+   README
+   AUTHORS
+   CONTRIBUTING

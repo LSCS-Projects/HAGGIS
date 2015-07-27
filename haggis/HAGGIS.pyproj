@@ -45,7 +45,22 @@
     <Compile Include="gui\gui_main.py" />
     <Compile Include="gui\__init__.py" />
     <Compile Include="haggis.py" />
+    <Compile Include="tests\test_clean.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\test_dbTools.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\test_load.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\test_match.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="tests\test_spatial.py" />
+    <Compile Include="tests\test_tokenise.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="tests\__init__.py" />
   </ItemGroup>
   <ItemGroup>
