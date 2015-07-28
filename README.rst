@@ -87,7 +87,7 @@ HAGGIS-1.0.0 installation:
 
 Unpack the archive and a new directory named 'HAGGIS' will be created containing all the necessary HAGGIS modules and additional files such as example data sets, documentation and testing programs.
 
-Go into the 'tests' sub-directory within 'HAGGIS/haggis' and run all tests using the corresponding command provided::
+Go into the 'haggis' sub-directory within 'HAGGIS' and run all tests using the corresponding command provided::
 
 > nosetests
 
