@@ -790,7 +790,7 @@ class Match(object):
                            1 = FREE SLOT
                            2 = FREE SLOT
                            3 = FREE SLOT
-                           4 = Similarity ratio
+                           4 = Similarity ratio [Not final]
         """
         
         _distance_lst = []
