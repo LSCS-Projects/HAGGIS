@@ -868,11 +868,13 @@ class Match(object):
 
         # 2: Jaccard distance
         if string_type == 2:
-            _distance_fin = jaccard_distance (set(tokens_a), set(tokens_b))
+            #_distance_fin = jaccard_distance (set(tokens_a), set(tokens_b))
+            pass
 
         # 3: Measuring Agreement on Set-Valued Items (MASI)
         if string_type == 3:
-            _distance_fin = masi_distance(set(tokens_a), set(tokens_b))
+            #_distance_fin = masi_distance(set(tokens_a), set(tokens_b))
+            pass
 
         # 4: Similarity ratio - Compute similarity ratio of two strings sets.
         #    The best match between any strings in the first set and the second set 

@@ -1,13 +1,19 @@
-=====================================================================
-HAGGIS 1.0.0 - Installation instructions
-=====================================================================
 
+=====================================================================
+Historical Address Geocoder (HAG-GIS) 1.0.0 
+=====================================================================
 **Konstantinos Daras, July 2015**
 
 
+The Historical Address Geocoder (HAG-GIS) is a Python 2.7 program for automating the geocoding process for the `Digitising Scotland project <http://www.lscs.ac.uk/projects/digitising-scotland/>`_. The geocoding process involves fuzzy-matching historical records with contemporary addresses. This automating system takes into account spatial information deriving from historical administrative data improving the accuracy of the geocoded historical addresses and producing geography boundaries at small administrative scales where geographical boundaries are not available.
+
+
+Installation instructions
+-------------------------
+
 The basic HAGGIS-1.0.0 installation requires Python  2.7, with
 additional packages and libraries needed for the spatial analysis and database
-managment of data.
+management of data.
 
 Python 2.7:
 
@@ -58,7 +64,9 @@ Follow the installation instructions as suggested at the official sites of the f
 
 Qhull library (scipy depedency) at http://www.qhull.org/
 
-SpatiaLite v4.0 library (sqlite depedency) at http://www.gaia-gis.it/gaia-sins/
+SpatiaLite v4.0 library (sqlite dependency) at http://www.gaia-gis.it/gaia-sins/
+
+   
 
 
 Test of installed modules:
@@ -101,7 +109,7 @@ The HAGGIS can be started using::
 
 > python haggis.py
 
-or
+or::
 
 > python haggis.py <config file>
 
@@ -135,10 +143,10 @@ Historical Address Geocoder
 Future features
 --------
 
-ToDo list
+**ToDo list**
 
 *	Documentation
-*   Export Geocoded Historical addresses and RD polygon cendroids [Priority]
+*   Export Geocoded Historical addresses and RD polygon centroids [Priority]
 *	Use Q-Gram algorithm
 *	Use Jaro-Winkler algorithm
 *	Introduce weights in each token [Priority]

@@ -204,7 +204,7 @@ if __name__ == "__main__":
     else:
          cfg_data = app_load.load_yaml_file(cfg_file)
     
-    # If True runs a window GUI environment - TODO: To be implemented!!!
+    # If True it runs a window GUI environment - TODO: To be implemented!!!
     if cfg_data.cfg_gui == False and cfg_data != '':
         
         # Reads an existing database or creates a new one using the given schema

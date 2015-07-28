@@ -6,4 +6,4 @@
 *	Use Jaro-Winkler algorithm
 *	Introduce weights in each token
 *	Use Classification after address comparison
-
+*	Create example data sets
