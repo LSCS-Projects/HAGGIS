@@ -1,6 +1,6 @@
-import unittest
+﻿import unittest
 
-class Test_test_clean(unittest.TestCase):
+class Test_clean(unittest.TestCase):
     def test_A(self):
         self.fail("Not implemented")
 

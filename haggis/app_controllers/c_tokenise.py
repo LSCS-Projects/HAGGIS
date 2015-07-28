@@ -8,8 +8,8 @@
 # Web site: http://lscs-projects.github.io/HAGGIS/
 # =============================================================================
 #
-#  This Source Code is subject to the terms of the BSD license. For license
-#  information, see LICENSE.TXT 
+#  This Source Code is subject to the terms of the GPL 3.0 license. For license
+#  information, see http://www.gnu.org/licenses/gpl.html 
 #
 # =============================================================================
 
