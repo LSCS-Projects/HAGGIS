@@ -54,9 +54,11 @@ tqdm package::
 
 External Libraries:
   
-  Follow the installation instruction for each library as suggested.
+Follow the installation instructions as suggested at the official sites of the following libraries.
 
-   
+Qhull library (scipy depedency) at http://www.qhull.org/
+
+SpatiaLite v4.0 library (sqlite depedency) at http://www.gaia-gis.it/gaia-sins/
 
 
 Test of installed modules:
