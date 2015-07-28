@@ -29,24 +29,6 @@ import app_controllers.c_spatial as CSpatial
 import db.dbTools as DB
 
 
-# Constant variables 
-# ---------------------------------------------------------------------------------
-class _Const(object):
-    """Class for setting global constants.
-    """
-    # Levenshtein edit-distance - Transposition OFF
-    def LEVENSHTEIN_OFF():
-        return 0
-    # Levenshtein edit-distance - Transposition ON
-    def LEVENSHTEIN_ON():
-        return 1
-    # Jaccard distance
-    def JACCARD():
-        return 2
-    # Measuring Agreement on Set-Valued Items (MASI)
-    def MASI():
-        return 3
-
 # <main> function - returns the <inputfile> configuration file
 # ---------------------------------------------------------------------------------
 def main(argv):
