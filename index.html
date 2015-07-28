@@ -42,7 +42,128 @@
         <h3>
 <a name="welcome-to-hag-gis-website" class="anchor" href="#welcome-to-hag-gis-website"><span class="octicon octicon-link"></span></a>Welcome to HAG-GIS website.</h3>
 
-<p> The Historical Address Geocoder (HAG-GIS) is a Python 2.7 program for automating the geocoding process for the <a href="http://www.lscs.ac.uk/projects/digitising-scotland/">Digitising Scotland</a> project. The geocoding process involves fuzzy-matching historical records with contemporary addresses. This automating system takes into account spatial information deriving from historical administrative data improving the accuracy of the geocoded historical addresses and producing geography boundaries at small administrative scales where geographical boundaries are not available.</p>
+<p>The Historical Address Geocoder (HAG-GIS) is a Python 2.7 program for automating the geocoding process for the <a class="reference external" href="http://www.lscs.ac.uk/projects/digitising-scotland/">Digitising Scotland project</a>. The geocoding process involves fuzzy-matching historical records with contemporary addresses. This automating system takes into account spatial information deriving from historical administrative data improving the accuracy of the geocoded historical addresses and producing geography boundaries at small administrative scales where geographical boundaries are not available.</p>
+<div class="section" id="installation-instructions">
+<h2>Installation instructions<a class="headerlink" href="#installation-instructions" title="Permalink to this headline">¶</a></h2>
+<p>The basic HAGGIS-1.0.0 installation requires Python  2.7, with
+additional packages and libraries needed for the spatial analysis and database
+management of data.</p>
+<p>Python 2.7:</p>
+<p><a class="reference external" href="http://www.python.org">http://www.python.org</a></p>
+<p>To install pip, securely download get-pip.py (<a class="reference external" href="https://bootstrap.pypa.io/get-pip.py">https://bootstrap.pypa.io/get-pip.py</a>). Then run the following (which may require administrator access):</p>
+<div class="highlight-python"><div class="highlight"><pre>&gt; python get-pip.py
+</pre></div>
+</div>
+<p>If setuptools is not already installed, get-pip.py will install setuptools for you. To upgrade an existing setuptools:</p>
+<div class="highlight-python"><div class="highlight"><pre>&gt; pip install -U setuptools.
+</pre></div>
+</div>
+<p>Additional Python packages (<strong>pip package is required</strong>)</p>
+<p>wheel package:</p>
+<div class="highlight-python"><div class="highlight"><pre>&gt; pip install wheel==0.24.0
+</pre></div>
+</div>
+<p>PyYAML package:</p>
+<div class="highlight-python"><div class="highlight"><pre>&gt; pip install PyYAML==3.11
+</pre></div>
+</div>
+<p>python-Levenshtein package:</p>
+<div class="highlight-python"><div class="highlight"><pre>&gt; pip install python-Levenshtein==0.11.2
+</pre></div>
+</div>
+<p>scipy package:</p>
+<div class="highlight-python"><div class="highlight"><pre>&gt; pip install scipy==0.15.1
+</pre></div>
+</div>
+<p>numpy package:</p>
+<div class="highlight-python"><div class="highlight"><pre>&gt; pip install numpy==1.9.2
+</pre></div>
+</div>
+<p>nose package:</p>
+<div class="highlight-python"><div class="highlight"><pre>&gt; pip install nose==1.3.7
+</pre></div>
+</div>
+<p>tqdm package:</p>
+<div class="highlight-python"><div class="highlight"><pre>&gt; pip install tqdm==1.0
+</pre></div>
+</div>
+<p>External Libraries:</p>
+<p>Follow the installation instructions as suggested at the official sites of the following libraries.</p>
+<p>Qhull library (scipy depedency) at <a class="reference external" href="http://www.qhull.org/">http://www.qhull.org/</a></p>
+<p>SpatiaLite v4.0 library (sqlite dependency) at <a class="reference external" href="http://www.gaia-gis.it/gaia-sins/">http://www.gaia-gis.it/gaia-sins/</a></p>
+</div>
+<div class="section" id="test-of-installed-modules">
+<h2>Test of installed modules:<a class="headerlink" href="#test-of-installed-modules" title="Permalink to this headline">¶</a></h2>
+<p>To test if the required libraries are installed in your Python
+distribution, start Python and try the following:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">scipy.spatial</span> <span class="kn">import</span> <span class="n">Voronoi</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">scipy.spatial</span> <span class="kn">import</span> <span class="n">KDTree</span>
+</pre></div>
+</div>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">Levenshtein</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">tqdm</span>
+</pre></div>
+</div>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">PyYAML</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span>
+</pre></div>
+</div>
+<p>None of these import commands should give you an error.</p>
+</div>
+<div class="section" id="haggis-1-0-0-installation">
+<h2>HAGGIS-1.0.0 installation:<a class="headerlink" href="#haggis-1-0-0-installation" title="Permalink to this headline">¶</a></h2>
+<p>Unpack the archive and a new directory named &#8216;HAGGIS&#8217; will be created containing all the necessary HAGGIS modules and additional files such as example data sets, documentation and testing programs.</p>
+<p>Go into the &#8216;haggis&#8217; sub-directory within &#8216;HAGGIS&#8217; and run all tests using the corresponding command provided:</p>
+<div class="highlight-python"><div class="highlight"><pre>&gt; nosetests
+</pre></div>
+</div>
+<p>or run the tests individually (within &#8216;HAGGIS/haggis/tests&#8217; folder), for example:</p>
+<div class="highlight-python"><div class="highlight"><pre>&gt; python test_spatial.py
+</pre></div>
+</div>
+</div>
+<div class="section" id="starting-haggis-1-0-0">
+<h2>Starting HAGGIS-1.0.0<a class="headerlink" href="#starting-haggis-1-0-0" title="Permalink to this headline">¶</a></h2>
+<p>The HAGGIS can be started using:</p>
+<div class="highlight-python"><div class="highlight"><pre>&gt; python haggis.py
+</pre></div>
+</div>
+<p>or:</p>
+<div class="highlight-python"><div class="highlight"><pre>&gt; python haggis.py &lt;config file&gt;
+</pre></div>
+</div>
+<p>where &lt;config file&gt; is a given configuration file.</p>
+</div>
+<div class="section" id="problems-and-errors">
+<h2>Problems and errors:<a class="headerlink" href="#problems-and-errors" title="Permalink to this headline">¶</a></h2>
+<p>Please note that this is the initial distribution of HAGGIS-1.0.0
+which has only been tested to a limited extent on an Windows platform
+(specifically Windows 7 &amp; 8 with Python 2.7).</p>
+<p>Please report any problems and bugs to: <a class="reference external" href="mailto:konstantinos&#46;Daras&#37;&#52;&#48;gmail&#46;com">konstantinos<span>&#46;</span>Daras<span>&#64;</span>gmail<span>&#46;</span>com</a></p>
+</div>
+<div class="section" id="haggis-1-0-0-updates">
+<h2>HAGGIS-1.0.0 updates:<a class="headerlink" href="#haggis-1-0-0-updates" title="Permalink to this headline">¶</a></h2>
+<p>To receive updates and news on HAGGIS please visit the following open source lists at:</p>
+<a class="reference external image-reference" href="https://github.com/LSCS-Projects/HAGGIS"><img alt="https://badge.fury.io/gh/LSCS-Projects%2FHAGGIS.png" src="https://badge.fury.io/gh/LSCS-Projects%2FHAGGIS.png" /></a>
+<p>Historical Address Geocoder</p>
+<ul class="simple">
+<li>Free software: GPL 3.0 license</li>
+<li>Documentation: <a class="reference external" href="http://www.gnu.org/licenses/gpl.html">http://www.gnu.org/licenses/gpl.html</a>.</li>
+</ul>
+</div>
+<div class="section" id="future-features">
+<h2>Future features<a class="headerlink" href="#future-features" title="Permalink to this headline">¶</a></h2>
+<p><strong>ToDo list</strong></p>
+<ul class="simple">
+<li>Documentation</li>
+<li>Export Geocoded Historical addresses and RD polygon centroids [Priority]</li>
+<li>Use Q-Gram algorithm</li>
+<li>Use Jaro-Winkler algorithm</li>
+<li>Introduce weights in each token [Priority]</li>
+<li>Use Classification after address comparison [Priority]</li>
+<li>Create example data sets</li>
+</ul>
+</div>
 
       </section>
       <footer>
