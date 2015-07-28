@@ -124,7 +124,7 @@ Please report any problems and bugs to: konstantinos.Daras@gmail.com
 HAGGIS-1.0.0 updates:
 --------------------------
 
-To receive updates and news on HAG please visit the following open source lists at:
+To receive updates and news on HAGGIS please visit the following open source lists at:
     
 .. image:: https://badge.fury.io/gh/LSCS-Projects%2FHAGGIS.png
         :target: https://github.com/LSCS-Projects/HAGGIS
