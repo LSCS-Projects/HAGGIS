@@ -143,3 +143,4 @@ ToDo list
 *	Use Jaro-Winkler algorithm
 *	Introduce weights in each token [Priority]
 *	Use Classification after address comparison [Priority]
+*	Create example data sets
