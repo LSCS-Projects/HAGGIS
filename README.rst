@@ -12,7 +12,7 @@ managment of data.
 
 Python 2.7:
 
-> http://www.python.org
+http://www.python.org
 
 To install pip, securely download get-pip.py (https://bootstrap.pypa.io/get-pip.py). Then run the following (which may require administrator access)::
 
@@ -100,7 +100,7 @@ The HAGGIS can be started using::
 
 > python haggis.py
 
-or 
+or::
 
 > python haggis.py <config file>
 
